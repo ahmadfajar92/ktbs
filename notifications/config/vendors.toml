@@ -1,0 +1,19 @@
+# This is a TOML document. Boom.
+
+title = "SMS Vendor TOML"
+
+[smsvendors]
+    
+    [smsvendors.bacrit]
+    name = "bacrit"
+    uri = "https://simpleservice.ahmadfajar.repl.co/send/sms/bacrit"
+    token = "AccessKey g3L3nk321"
+    isdefault = "true"
+    enable = "true"
+
+    [smsvendors.ngehe]
+    name = "ngehe"
+    uri = "https://simpleservice.ahmadfajar.repl.co/send/sms/ngehe"
+    token = "Basic ManGGat1p4Yun"
+    isdefault = "false"
+    enable = "true"
